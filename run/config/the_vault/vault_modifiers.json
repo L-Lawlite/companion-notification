@@ -330,6 +330,19 @@
           "icon": "the_vault:gui/modifiers/ornate_chests"
         }
       },
+      "the_vault:wooden_bonus": {
+        "properties": {
+          "output": "the_vault:placeholder[type=wooden_chest]",
+          "attemptsPerChunk": 8,
+          "requireConditions": true
+        },
+        "display": {
+          "name": "Bonus Wooden",
+          "color": "#c7b281",
+          "description": "+1 Set of Wooden Chests",
+          "icon": "the_vault:gui/modifiers/wooden_chests"
+        }
+      },
       "the_vault:wild": {
         "properties": {
           "output": "the_vault:wild_spawner",
@@ -411,6 +424,20 @@
           "color": "#CBC3E3",
           "description": "This vault is light weight",
           "descriptionFormatted": "This vault is light weight",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
+      "the_vault:royale_crates": {
+        "properties": {
+          "output": "the_vault:royale_loot_crate{LootTable:\"the_vault:royale_crate\"}",
+          "attemptsPerChunk": 20,
+          "requireConditions": true
+        },
+        "display": {
+          "name": "Royale Crates",
+          "color": "#CBC3E3",
+          "description": "Royale Loot Crates will spawn",
+          "descriptionFormatted": "Royale Loot Crates will spawn",
           "icon": "the_vault:gui/modifiers/impossible"
         }
       }
@@ -1002,6 +1029,20 @@
         },
         "display": {
           "name": "Ruthless Mobs",
+          "color": "#da6d5a",
+          "description": "+20% Mob Damage",
+          "descriptionFormatted": "+%d%% Mob Damage",
+          "icon": "the_vault:gui/modifiers/ruthless_mobs"
+        }
+      },
+      "the_vault:royales_challenge": {
+        "properties": {
+          "type": "attack_damage_additive_percentile",
+          "amount": 0.2,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Royale Challenge",
           "color": "#da6d5a",
           "description": "+20% Mob Damage",
           "descriptionFormatted": "+%d%% Mob Damage",
@@ -1824,6 +1865,21 @@
           "descriptionFormatted": "+%d Regeneration",
           "icon": "the_vault:gui/modifiers/regeneration"
         }
+      },
+      "the_vault:saturation": {
+        "properties": {
+          "effect": "minecraft:saturation",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Saturation",
+          "color": "#fc7b2b",
+          "description": "+1 Saturation",
+          "descriptionFormatted": "+%d Saturation",
+          "icon": "the_vault:gui/modifiers/saturation"
+        }
       }
     },
     "the_vault:modifier_type/player_inventory_restore": {
@@ -2495,7 +2551,7 @@
       },
       "the_vault:noxp": {
         "properties": {
-          "addend": -1.0
+          "addend": -10000.0
         },
         "display": {
           "name": "No XP",
@@ -2551,6 +2607,18 @@
           "description": "Extended will not work in this vault",
           "descriptionFormatted": "Extended will not work in this vault",
           "icon": "the_vault:gui/modifiers/god_token_wendarr"
+        }
+      },
+      "the_vault:locker_debt": {
+        "properties": {
+          "addend": -10000.0
+        },
+        "display": {
+          "name": "The Locker's Claim",
+          "color": "#76b289",
+          "description": "Owed and unpaid. Earn no XP until your debt is settled",
+          "descriptionFormatted": "Owed and unpaid. Earn no XP until your debt is settled",
+          "icon": "the_vault:gui/modifiers/curse_voidpools"
         }
       }
     },
@@ -2875,6 +2943,19 @@
       }
     },
     "the_vault:modifier_type/grouped": {
+      "the_vault:royale": {
+        "properties": {
+          "children": {
+            "the_vault:royale_crates": 1
+          }
+        },
+        "display": {
+          "name": "Royale",
+          "color": "#bbf333",
+          "description": "Vault Royale Objective",
+          "icon": "the_vault:gui/modifiers/royale"
+        }
+      },
       "the_vault:bingo": {
         "properties": {
           "children": {
@@ -3052,7 +3133,7 @@
         "display": {
           "name": "Companion's Challenge",
           "color": "#ba0000",
-          "description": "Increases mob damage, mob spawns by 10% per stack, increases mob speed by 1.5% per stack",
+          "description": "Increases mob damage and mob spawns by 10% per stack, and increases mob speed by 1.5% per stack",
           "icon": "the_vault:gui/modifiers/companion_challenge"
         }
       },
@@ -3067,7 +3148,7 @@
         "display": {
           "name": "Challenge Stack",
           "color": "#ba0000",
-          "description": "Increases mob damage,mob spawns by 10% per stack, increases mob speed by 1.5% per stack",
+          "description": "Increases mob damage and mob spawns by 10% per stack, and increases mob speed by 1.5% per stack",
           "icon": "the_vault:gui/modifiers/challenging"
         }
       },
@@ -3383,6 +3464,20 @@
           "color": "#a996ca",
           "description": "Mobs in this vault can spawn in as ethereal, being immune to any damage.",
           "icon": "the_vault:gui/modifiers/haunted"
+        }
+      },
+      "the_vault:lunar": {
+        "properties": {
+          "filter": "",
+          "effect": "minecraft:levitation",
+          "amplifier": 2,
+          "chance": 1
+        },
+        "display": {
+          "name": "Lunar",
+          "color": "#c823fa",
+          "description": "Mobs in this vault are out of your way, they levitate above the ground.",
+          "icon": "the_vault:gui/modifiers/levitation"
         }
       }
     },

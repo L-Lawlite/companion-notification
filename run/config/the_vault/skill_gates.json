@@ -193,7 +193,8 @@
           { "type": "constant", "id": "Potions" },
           { "type": "constant", "id": "Mixtures" },
           { "type": "constant", "id": "Brews" },
-          { "type": "constant", "id": "Entangled" }
+          { "type": "constant", "id": "Entangled" },
+          { "type": "constant", "id": "Laser Bridges" }
         ],
         "ignoreArrow": true,
         "lockedBy": []
@@ -231,6 +232,14 @@
       },
       "Toxic_Reaction": {
         "lockedBy": [{ "type": "constant", "id": "Blight" }],
+        "dependsOn": []
+      },
+      "Lightning_Damage": {
+        "lockedBy": [{ "type": "constant", "id": "Lightning_Stun" }],
+        "dependsOn": []
+      },
+      "Lightning_Stun": {
+        "lockedBy": [{ "type": "constant", "id": "Lightning_Damage" }],
         "dependsOn": []
       }
     }

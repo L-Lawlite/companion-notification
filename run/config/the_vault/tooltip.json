@@ -42,7 +42,7 @@
     },
     {
       "item": "the_vault:eye_of_avarice",
-      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding the 'Safe Zone' modifier"
+      "value": "Apply to a crystal in an anvil to add Looters Dream. Looters Dream completely negates all trapped chances from ever occuring even when on a crystal with the Trapped Modifier."
     },
     {
       "item": "the_vault:god_token",
@@ -59,6 +59,14 @@
     {
       "item": "the_vault:crystal_seal_cake",
       "value": "Is it cake?\nPut this Vault Rock on a Vault Altar to create a Cake Crystal!"
+    },
+    {
+      "item": "the_vault:crystal_seal_herald",
+      "value": "Put this Vault Rock on a Vault Altar to create a Herald Crystal!"
+    },
+    {
+      "item": "the_vault:crystal_seal_raid_infinite",
+      "value": "Put this Vault Rock on a Vault Altar to create an Infinite Raid Crystal!"
     },
     {
       "item": "the_vault:crystal_seal_ordinator_build",
@@ -839,6 +847,18 @@
     {
       "item": "the_vault:vault_catalyst_infused",
       "value": "Use in a Crystal Workbench to modify/upgrade a Vault Crystal"
+    },
+    {
+      "item": "the_vault:companion_relic",
+      "value": "Use in a Companion Home to add a modifier to your companion."
+    },
+    {
+      "item": "the_vault:companion_egg",
+      "value": "Place in a Companion Incubator to hatch a companion!"
+    },
+    {
+      "item": "the_vault:companion_particle_trail",
+      "value": "Place in a Companion Home to give your companion a trail!"
     },
     {
       "item": "the_vault:vault_catalyst_chaos",

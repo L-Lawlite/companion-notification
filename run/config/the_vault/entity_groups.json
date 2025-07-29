@@ -230,7 +230,8 @@
       "the_vault:t5_cave_skeleton",
       "the_vault:overgrown_woodman_t0",
       "the_vault:overgrown_woodman_t1",
-      "the_vault:overgrown_woodman_t2"
+      "the_vault:overgrown_woodman_t2",
+      "the_vault:t3_piglin"
     ],
     "the_vault:tank": [
       "the_vault:shiver",
@@ -238,7 +239,6 @@
       "the_vault:t3_zombie",
       "the_vault:t3_drowned",
       "the_vault:t3_husk",
-      "the_vault:t3_piglin",
       "the_vault:vault_red_gummy_soldier",
       "minecraft:piglin_brute",
       "the_vault:deep_dark_horror",

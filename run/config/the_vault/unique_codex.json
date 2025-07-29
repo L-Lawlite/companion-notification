@@ -9,7 +9,8 @@
       "CHEST": [
         "the_vault:castle",
         "the_vault:crystalplate",
-        "the_vault:frozen_throne"
+        "the_vault:frozen_throne",
+        "the_vault:annmari"
       ],
       "LEGS": [
         "the_vault:crashguards",
@@ -256,6 +257,31 @@
     {
       "title": {
         "description": {
+          "text": "Ann-Mari",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Let the great Ann-Mari watch over you, always having your back.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "X-Mark",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:annmari"
+    },
+    {
+      "title": {
+        "description": {
           "text": "Crashguards",
           "color": "#7D520E"
         }
@@ -346,7 +372,7 @@
       "description": {
         "description": [
           {
-            "text": "Frostguards offers a unique feature by leaving a trail of chill whereever you walk.",
+            "text": "Frostguards offers a unique feature by leaving a trail of chill wherever you walk.",
             "color": "$text"
           },
           {
@@ -511,7 +537,7 @@
             "color": "$thornsDamage"
           },
           {
-            "text": " is your prefered way of killing, no shield does it better than ",
+            "text": " is your preferred way of killing, no shield does it better than ",
             "color": "$text"
           },
           {

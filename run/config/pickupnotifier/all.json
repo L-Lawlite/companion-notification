@@ -168,6 +168,9 @@
         "the_vault:scavenger_old_book",
         "the_vault:scavenger_skeleton_ribcage",
         "the_vault:scavenger_skeleton_skull",
-        "the_vault:scavenger_skeleton_wishbone"
+        "the_vault:scavenger_skeleton_wishbone",
+
+        "the_vault:companion_relic",
+        "the_vault:companion_particle_trail"
     ]
 }

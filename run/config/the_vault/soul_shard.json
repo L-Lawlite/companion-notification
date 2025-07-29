@@ -27,6 +27,7 @@
                 },
                 "weight": 25
             },
+            
             {
                 "value": {
                     "item": {
@@ -316,6 +317,18 @@
                     },
                     "minPrice": 300,
                     "maxPrice": 600
+                },
+                "weight": 40
+            },
+            {
+                "value": {
+                    "item": {
+                        "ITEM": "the_vault:augment",
+                        "AMOUNT": 1,
+                        "NBT": "{pool:\"the_vault:random\"}"
+                    },
+                    "minPrice": 400,
+                    "maxPrice": 1000
                 },
                 "weight": 40
             },
@@ -814,6 +827,18 @@
                     "maxPrice": 1200
                 },
                 "weight": 40
+            },
+            {
+                "value": {
+                    "item": {
+                        "ITEM": "the_vault:augment",
+                        "AMOUNT": 1,
+                        "NBT": "{pool:\"the_vault:random\"}"
+                    },
+                    "minPrice": 800,
+                    "maxPrice": 1400
+                },
+                "weight": 50
             },
             {
                 "value": {
@@ -1526,6 +1551,18 @@
                     "maxPrice": 2000
                 },
                 "weight": 40
+            },
+            {
+                "value": {
+                    "item": {
+                        "ITEM": "the_vault:augment",
+                        "AMOUNT": 1,
+                        "NBT": "{pool:\"the_vault:random\"}"
+                    },
+                    "minPrice": 1000,
+                    "maxPrice": 1600
+                },
+                "weight": 50
             },
             {
                 "value": {

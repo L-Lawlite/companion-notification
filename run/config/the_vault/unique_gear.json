@@ -6,7 +6,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_armor",
@@ -30,7 +31,8 @@
 
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_armor",
@@ -53,7 +55,9 @@
       "model": "the_vault:gear/armor/sweetheart/chestplate",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_health"
@@ -74,7 +78,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:u_all_skills",
@@ -98,7 +103,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
         ],
@@ -118,7 +124,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_thorns_damage_flat"
@@ -141,11 +148,13 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_attack_damage"
@@ -165,7 +174,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:u_base_block"
@@ -188,7 +198,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_armor",
@@ -274,11 +285,13 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_attack_damage",
@@ -301,7 +314,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:offhand_base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           
@@ -323,8 +337,9 @@
       "model": "the_vault:gear/armor/frozen_throne/chestplate",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:offhand_base_durability",
-          "the_vault:u_living"
+          "the_vault:base_durability",
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_armor",
@@ -341,6 +356,34 @@
       "weight": 1
     },
 
+    "the_vault:annmari": {
+      "name": "Ann-Mari",
+      "model": "the_vault:gear/armor/phoenix_chestplate/chestplate",
+      "modifierIdentifiers": {
+        "BASE_ATTRIBUTE": [
+          "the_vault:base_durability",
+          "the_vault:u_living"
+        ],
+        "IMPLICIT": [
+          "the_vault:base_armor",
+          "the_vault:u_base_crit_hit",
+          "the_vault:base_ap"
+        ],
+        "PREFIX": [
+          "the_vault:u_mod_armor",
+          "the_vault:mod_health",
+          "the_vault:mod_added_ability_level_groupheal"
+        ],
+        "SUFFIX": [
+          "the_vault:heal_cooldown",
+          "the_vault:u_phoenix"
+          
+        ]
+      },
+      "modifierTags": [],
+      "weight": 1
+    },
+
 
     "the_vault:stormcrown": {
       "name": "Stormcrown",
@@ -348,7 +391,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_ap"
@@ -374,7 +418,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:offhand_base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_ap"
@@ -400,7 +445,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_armor"
@@ -425,7 +471,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_armor"
@@ -450,7 +497,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
         ],
@@ -470,10 +518,11 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:offhand_base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
-          "the_vault:u_chaining"
+          "the_vault:mod_on_hit_chain"
         ],
         "PREFIX": [
         ],
@@ -491,7 +540,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
@@ -515,7 +565,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:u_base_block"
@@ -537,7 +588,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:u_pacifist_movement"
@@ -559,11 +611,13 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_attack_speed_percent"
@@ -583,7 +637,8 @@
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
           "the_vault:base_durability",
-          "the_vault:u_living"
+          "the_vault:u_living",
+          "the_vault:u_soulbound"
         ],
         "IMPLICIT": [
           "the_vault:base_armor",
@@ -686,6 +741,9 @@
     },
     "the_vault:frostguards": {
       "the_vault:frostguards": 1
+    },
+    "the_vault:annmari": {
+      "the_vault:annmari": 1
     }
   }
 }
