@@ -33,7 +33,6 @@ public class CompanionEggHuntMixin {
     @Expression("?.get(THRESHOLD)")
     @WrapOperation(method = "tickServer", at = @At(value = "MIXINEXTRAS:EXPRESSION", ordinal = 0))
     public Object thresholdCondition(HuntInstance instance, FieldKey fieldKey, Operation<Object> original) {
-
-            return  instance.get(fieldKey).equals(0) ? 1 : original;
+            return  instance.get(fieldKey).equals(0) ? 1 : instance.get(fieldKey);
     }
 }
