@@ -21,6 +21,6 @@ public class CompanionEggHuntMixin {
     @Expression("?.set(THRESHOLD,?)")
     @Inject(method = "createHunt", at = @At(value = "MIXINEXTRAS:EXPRESSION", shift = At.Shift.AFTER))
     public void addCompanionNotification(ServerPlayer player, Vault vault, CallbackInfo ci) {
-        player.sendMessage((new TextComponent("Companion is watching you!").withStyle(ChatFormatting.GREEN)), Util.NIL_UUID);
+        player.sendMessage((new TextComponent("A companion is watching you!").withStyle(ChatFormatting.GREEN)), Util.NIL_UUID);
     }
 }
